@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-item img {
+    height: auto; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    align-items: center;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 250px; /* Atur tinggi gambar */
+    width: 250px;
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.card-title-1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-title-2 {
+    font-size: 0.8rem;
+    
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #000000; /* Warna teks deskripsi */
+}
+
+.btn-primary {
+    background-color: #00b140; /* Warna hijau Tokopedia */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #009639; /* Warna hijau lebih gelap saat hover */
+}
